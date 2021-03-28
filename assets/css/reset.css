@@ -1,0 +1,23 @@
+*{
+    margin: 2px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+html {
+    height: 150%;
+}
+
+body {
+    min-width: 100%;
+    line-height: 1.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    font-size: 100%;
+}
+
+ol, ul {
+    list-style: bullets;
+}
