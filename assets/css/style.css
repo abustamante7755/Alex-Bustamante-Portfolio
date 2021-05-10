@@ -14,14 +14,10 @@ header {
 h1 {
     font-size: 250%;
 }
-header nav ul li {
-    display: inline;
-    margin-left: 20px;
-    font-size: 120%;
-}
+
 .button {
     text-decoration: none;
-    color:#A6A6A6;
+    color:white;
     padding: 15px 40px;
     border-radius: 4px;
     text-transform: uppercase;
@@ -37,6 +33,7 @@ main {
 h2{
     font-size:150%;
     color: #2E5894;
+    text-align: center;
 }
 .insert-image-here img {
     display: block;
@@ -49,7 +46,8 @@ h2{
     columns: 1;
 }
 .p1{
-text-align: right;
+text-align: center;
+flex: center;
 }
 .p2{
 text-align: left;
@@ -79,3 +77,13 @@ h4{
     text-align: center;
     background-color: #2E5894;
 }
+
+.repos {
+    font-size: larger;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 180px;
+    font-size: 120%;
+  }
